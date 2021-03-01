@@ -1,0 +1,45 @@
+html {
+    box-sizing: border-box;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+body{
+    background-image: url(Bilder\Assets\Rahmen.JPG);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.header{
+    padding: 5px;
+}
+
+.body{
+    clear: both;
+    display: grid;
+    grid-template-columns: 5% 30% 30% 30% 5%;
+}
+.left{
+    float: left;
+    grid-column-start: 2;
+}
+.main{
+    float: left;
+}
+.right{
+    float: left;
+}
+
+.footer{
+    clear: both;
+    display: grid;
+    grid-template-columns: 5% 15% 15% 15% 15% 15% 15% 5%;
+}
+.footerchildfirst{
+    grid-column-start: 2;
+    float: left;
+}
+.footerchild{
+    float: left;
+}
