@@ -34,6 +34,8 @@ body{
     clear: both;
     display: grid;
     grid-template-columns: 5% 15% 15% 15% 15% 15% 15% 5%;
+    position: sticky;
+    bottom: 0px;
 }
 .footerchildfirst{
     grid-column-start: 2;
