@@ -4,30 +4,25 @@ html {
     background-color: black;
     color: white;
 }
-body{
-    background-image: url('Bilder/Assets/Rahmen.png');
-    background-repeat: no-repeat;
-    background-position: center;
-}
 
 .header{
     padding: 5px;
 }
 
-.body{
+.body::after{
+    content: "";
     clear: both;
-    display: grid;
-    grid-template-columns: 5% 30% 30% 30% 5%;
+    display: table;
 }
-.left{
+[class*="bod-"]{
     float: left;
-    grid-column-start: 2;
+    padding: 15px;
+    width: 100%;
 }
-.main{
-    float: left;
-}
-.right{
-    float: left;
+@media only screen and (min-width: 1100px){
+    .bod-left{width: 30%;}
+    .bod-middle{width: 30%;}
+    .bod-right{width: 30%;}
 }
 
 .footer{
@@ -35,12 +30,18 @@ body{
     display: grid;
     grid-template-columns: 5% 15% 15% 15% 15% 15% 15% 5%;
     position: sticky;
-    bottom: 0px;
-}
-.footerchildfirst{
-    grid-column-start: 2;
-    float: left;
+    bottom: 5px;
 }
 .footerchild{
     float: left;
+    background-image: url('Bilder/Assets/RahmenUntenMitte.png');
+}
+.footleft{
+    background-image: url('Bilder/Assets/RahmenUntenLinks.png');    
+    background-repeat: no-repeat;
+    background-position:right;
+}
+.footright{
+    background-image: url('Bilder/Assets/RahmenUntenRechts.png');
+    background-repeat: no-repeat;
 }
