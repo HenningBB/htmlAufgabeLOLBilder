@@ -5,10 +5,9 @@ html {
     color: white;
 }
 body{
-    background-image: url(Bilder\Assets\Rahmen.JPG);
+    background-image: url('Bilder/Assets/Rahmen.png');
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    background-position: center;
 }
 
 .header{
