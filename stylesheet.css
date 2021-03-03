@@ -6,10 +6,69 @@ html,body {
     
 }
 body{
-    text-align: center;
     background-color: black;
     box-sizing: border-box;    
     color: white;
+}
+
+.border{
+    position: fixed;
+    z-index: 5;
+}
+#borderLinksOben{
+    top: 0px;
+    left: 0px;
+}
+#borderRechtsOben{
+    top: 0px;
+    right: 1px;
+}
+#borderLinksUnten{
+    bottom: 0px;
+    left: 0px;
+}
+#borderRechtsUnten{
+    bottom: 0px;
+    right: 0px;
+}
+#borderOben{
+    z-index: 4;
+    background-image: url("Bilder/Assets/RahmenMittelOben.png");
+    background-repeat: repeat-x;
+    height: 20px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#borderLinks{
+    z-index: 4;
+    background-image: url("Bilder/Assets/RahmenMitteLinks.png");
+    background-repeat: repeat-y;
+    width: 40px;
+    height: 90%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+#borderRechts{
+    z-index: 4;
+    background-image: url("Bilder/Assets/RahmenMitteRechts.png");
+    background-repeat: repeat-y;
+    width: 30px;
+    height: 90%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    right: 3px;
+}
+#borderUnten{
+    z-index: 4;
+    background-image: url("Bilder/Assets/RahmenUntenMitte.png");
+    background-repeat: repeat-x;
+    height: 136px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    bottom: 0px;
 }
 
 .header{
@@ -41,13 +100,15 @@ body{
 }
 .footerchild{
     float: left;
-    background-image: url('Bilder/Assets/RahmenUntenMitte.png');
+   // background-image: url('Bilder/Assets/RahmenUntenMitte.png');
 }
 .footleft{
-    background-image: url('Bilder/Assets/RahmenUntenLinks.png');    
-    background-repeat: no-repeat;
+    float: left;
+   // background-image: url('Bilder/Assets/RahmenUntenLinks.png');    
+   // background-repeat: no-repeat;
 }
 .footright{
-    background-image: url('Bilder/Assets/RahmenUntenRechts.png');
-    background-repeat: no-repeat;
+    float: left;
+    // background-image: url('Bilder/Assets/RahmenUntenRechts.png');
+   // background-repeat: no-repeat;
 }
