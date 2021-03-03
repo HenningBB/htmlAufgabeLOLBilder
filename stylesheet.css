@@ -65,10 +65,13 @@ body{
     background-image: url("Bilder/Assets/RahmenUntenMitte.png");
     background-repeat: repeat-x;
     height: 136px;
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
     bottom: 0px;
+}
+#body{
+    text-align: center;
 }
 
 .header{
@@ -96,7 +99,8 @@ body{
     display: grid;
     grid-template-columns: 5% 15% 15% 15% 15% 15% 15% 5%;
     position: sticky;
-    bottom: 0px;
+    bottom: 15px;
+    z-index: 6;
 }
 .footerchild{
     float: left;
