@@ -15,7 +15,29 @@ a{
     color: white;
     text-decoration: none;
 }
+ul{
+    list-style: none;
+}
 
+
+.blackTop{
+    position: fixed;
+    top: 0px;
+    height: 20px;
+    left: 5%;
+    right: 5%;
+    background-color: black;
+    z-index: 3;
+}
+.blackBottom{
+    position: fixed;
+    bottom: 0px;
+    height: 20px;
+    left: 5%;
+    right: 5%;
+    background-color: black;
+    z-index: 3;
+}
 .border{
     position: fixed;
     z-index: 5;
@@ -102,6 +124,15 @@ a{
     .bod-right{width: 33%; height: 100%;}
 }
 
+.bod-right img:hover{
+    transform: translate(15px);
+}
+
+.Steckbrief{
+    padding-left: 30%;
+    text-align: left;
+}
+
 .footer{
     float: none;
     clear: both;
@@ -113,6 +144,9 @@ a{
 }
 .footerchild{
     float: left;
+}
+.footerchild img:hover{
+    transform: translate(5px);
 }
 .footleft{
     float: left;
