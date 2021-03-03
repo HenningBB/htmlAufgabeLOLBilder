@@ -104,15 +104,10 @@ body{
 }
 .footerchild{
     float: left;
-   // background-image: url('Bilder/Assets/RahmenUntenMitte.png');
 }
 .footleft{
     float: left;
-   // background-image: url('Bilder/Assets/RahmenUntenLinks.png');    
-   // background-repeat: no-repeat;
 }
 .footright{
     float: left;
-    // background-image: url('Bilder/Assets/RahmenUntenRechts.png');
-   // background-repeat: no-repeat;
 }
