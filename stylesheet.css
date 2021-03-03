@@ -119,9 +119,9 @@ ul{
     width: 100%;
 }
 @media only screen and (min-width: 1100px){
-    .bod-left{width: 33%; height: 100%;}
-    .bod-middle{width: 33%; height: 100%;}
-    .bod-right{width: 33%; height: 100%;}
+    .bod-left{width: 33%;}
+    .bod-middle{width: 33%;}
+    .bod-right{width: 33%;}
 }
 
 .bod-right img:hover{
