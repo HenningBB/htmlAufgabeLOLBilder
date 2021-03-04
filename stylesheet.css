@@ -16,6 +16,9 @@ a{
     text-decoration: none;
 }
 ul{
+    position: relative;
+    text-align: right;
+    right: -200px;
     list-style: none;
 }
 li{
@@ -27,8 +30,8 @@ li{
     position: fixed;
     top: 0px;
     height: 20px;
-    left: 5%;
-    right: 5%;
+    left: 5px;
+    right: 5px;
     background-color: black;
     z-index: 3;
 }
@@ -36,8 +39,17 @@ li{
     position: fixed;
     bottom: 0px;
     height: 20px;
-    left: 5%;
-    right: 5%;
+    left: 5px;
+    right: 5px;
+    background-color: black;
+    z-index: 3;
+}
+.blackRight{
+    position: fixed;
+    right: 0px;
+    width: 5px;
+    top: 0px;
+    bottom: 0px;
     background-color: black;
     z-index: 3;
 }
@@ -128,7 +140,8 @@ li{
 }
 
 .bod-right img:hover{
-    transform: translate(15px) scale(1.1,1.1);
+    transform: translate(-150px);
+    box-shadow: 5px 5px 1px grey;
 }
 
 .Steckbrief{
