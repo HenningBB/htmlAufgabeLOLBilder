@@ -18,6 +18,9 @@ a{
 ul{
     list-style: none;
 }
+li{
+    margin: 5px;
+}
 
 
 .blackTop{
