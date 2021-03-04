@@ -130,6 +130,7 @@ li{
     float: left;
     width: 100%;
 }
+
 @media only screen and (min-width: 1100px){
     .bod-left{width: 33%;}
     .bod-middle{width: 33%;}
@@ -147,7 +148,9 @@ li{
     }
 }
 
-
+.bod-right img:hover{
+    box-shadow: 5px 5px 1px grey;
+}
 
 .Steckbrief{
     padding-left: 30%;
