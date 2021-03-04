@@ -16,13 +16,10 @@ a{
     text-decoration: none;
 }
 ul{
-    position: relative;
-    text-align: right;
-    right: -200px;
     list-style: none;
 }
 li{
-    margin: 5px;
+    margin-bottom: 5px;
 }
 
 
@@ -137,12 +134,20 @@ li{
     .bod-left{width: 33%;}
     .bod-middle{width: 33%;}
     .bod-right{width: 33%;}
+    
+    ul{        
+    position: relative;
+    text-align: right;
+    right: -200px;
+    }
+
+    .bod-right img:hover{
+        transform: translate(-150px);
+        box-shadow: 5px 5px 1px grey;
+    }
 }
 
-.bod-right img:hover{
-    transform: translate(-150px);
-    box-shadow: 5px 5px 1px grey;
-}
+
 
 .Steckbrief{
     padding-left: 30%;
