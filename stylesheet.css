@@ -125,7 +125,7 @@ ul{
 }
 
 .bod-right img:hover{
-    transform: translate(15px);
+    transform: translate(15px) scale(1.1,1.1);
 }
 
 .Steckbrief{
